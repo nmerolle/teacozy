@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    top: 0;
+  }
+
+  .logo {
+    float: left;
+    height: 50px;
+    opacity: .7;
+    padding-left: 10px
+}
+
+nav {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin: 0 20px;
+}
